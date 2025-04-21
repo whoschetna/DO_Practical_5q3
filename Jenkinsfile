@@ -3,7 +3,7 @@ pipeline {
     environment {
         IMAGE_NAME = 'prac05q4'
         APP_PORT = '3000'
-        IMAGE_PATH = 'D:\DevOps\prac05q3'
+        IMAGE_PATH = 'D:/DevOps/prac05q3'
     }
     stages {
         stage('Clone Repository') {
